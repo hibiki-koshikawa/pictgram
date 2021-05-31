@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'topics/new'
   get 'sessions/new'
   get 'trails/test'
   get 'users/new'
@@ -9,9 +10,10 @@ Rails.application.routes.draw do
   get 'pages/help'
   get 'pages/link'
   
-  resources :users
-  
-  get     '/login',   to:  'sessions#new'
+  get     '/login',   to: 'sessions#new'
   post    '/login',   to: 'sessions#create'
   delete  '/logout',  to: 'sessions#destroy'
+
+  resources :users
+  resources :topics
 end
