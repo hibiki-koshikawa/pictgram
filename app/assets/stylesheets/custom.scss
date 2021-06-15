@@ -138,20 +138,20 @@ h1, h2 {
       margin-left: 20px;
     }
     
-    // .favorite-btn {
-    //   width: 25px;
-    //   height: 30px;
-    //   font-size: 25px;
-    //   color: #808080; 
-    //   margin-left: 20px;
-    // }
-
-    //   .notfavorite-btn {
-    //   width: 25px;
-    //   height: 30px;
-    //   font-size: 25px;
-    //   color: #e54747;
-    //   margin-left: 20px;
-    // }
+    .like-btn {
+      width: 35px;
+      height: 30px;
+      font-size: 25px;
+      color: #000000;
+      margin-left: 20px;
+    }
+    
+    .unlike-btn {
+      width: 35px;
+      height: 30px;
+      font-size: 25px;
+      color: #e54747;
+      margin-left: 20px;
+    }
   }
 }
