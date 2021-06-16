@@ -16,7 +16,7 @@
                     <i class="far fa-heart unlike-btn"></i>
                   <% end %>
                 <% else %>
-                  <%= link_to favorites_path(topic_id: topic.id), method: :delete do %>
+                  <%= link_to favorite_path(topic.id), method: :delete do %>
                     <i class="fas fa-heart like-btn"></i>
                   <% end %>
                 <% end %>
