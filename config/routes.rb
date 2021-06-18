@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'comments/new'
   get 'topics/new'
   get 'sessions/new'
   get 'trails/test'
@@ -17,4 +18,5 @@ Rails.application.routes.draw do
   resources :users
   resources :topics
   resources :favorites
+  resources :comments
 end
